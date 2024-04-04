@@ -2245,6 +2245,40 @@ h1 a {
     font-weight: 600;
     color: #0a487b;
 }*/
+
+/* Página de Metas Nacionais */
+
+.pagina-lining-metas {
+	display: flex;
+}
+.pagina-box-metas{
+	border-radius: 2px;
+	border: 1px solid #E4E8EC;
+	flex: 1;
+	margin: 2px;
+}
+.pagina-box-metas a{
+	font-size: 26px;
+	text-align: center;
+	display: block;
+	padding: 15px;
+	color: #333;
+	font-weight: 600;
+}
+.pagina-box-metas:hover{
+	background-color: #F2F2F2;
+}
+.pagina-box-metas:hover a{
+	color: #A9273C !important;
+}
+@media screen and (max-width: 700px) {
+	.pagina-lining-metas{
+		display: grid;
+	}
+}
+
+/* Fim página Metas Nacionais */
+
 .selo {
     margin-top: -15px;
     margin-bottom: -10px;
